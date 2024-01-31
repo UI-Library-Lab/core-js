@@ -1,0 +1,56 @@
+{
+  "name": "@ui-library-lab/core-js",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix --ignore-path .eslintignore --ignore-pattern \"!**/.*\" .",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UI-Library-Lab/core-js.git"
+  },
+  "keywords": [
+    "component-library",
+    "uiLibrary"
+  ],
+  "license": "MIT",
+  "resolutions": {
+    "strip-ansi": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.14",
+    "glob": "^10.3.10",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2",
+    "eslint": "^8.37.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "prettier-eslint": "^15.0.1",
+    "vite-plugin-linter": "^2.1.1",
+    "vite-tsconfig-paths": "^4.3.1"
+  }
+}
