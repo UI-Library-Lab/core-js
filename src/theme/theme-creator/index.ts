@@ -1,4 +1,4 @@
-import defaultThemeCreator from './defaultThemeCreator';
-import userThemeCreator from './userThemeCreator';
+import defaultThemeCreator from './default-theme-creator';
+import userThemeCreator from './user-theme-creator';
 
 export { userThemeCreator, defaultThemeCreator };

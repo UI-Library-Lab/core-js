@@ -1,6 +1,7 @@
 import { defaultTheme } from '~/configs/lib-configs';
 import { ICustomUiLibraryTheme, IUiLibraryTheme } from '~/configs/protocols';
-import { defaultThemeCreator, userThemeCreator } from './theme-creator';
+import defaultThemeCreator from '~/theme/theme-creator/default-theme-creator';
+import userThemeCreator from '~/theme/theme-creator/user-theme-creator';
 /* -------------------------------------------------------------------------- */
 /**
  * making the default theme based on the options of the user

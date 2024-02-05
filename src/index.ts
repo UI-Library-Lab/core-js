@@ -1,4 +1,4 @@
-import createUiLibraryTheme from '~/theme/themeCreator';
+import createUiLibraryTheme from '~/theme/theme-creator';
 import { paletteModes } from '~/configs/constants/default-configs';
 /* --------------------------------- exports -------------------------------- */
 export {
