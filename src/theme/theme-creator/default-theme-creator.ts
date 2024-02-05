@@ -5,7 +5,7 @@ import {
   IUiLibraryTheme,
   NPaletteConfigs,
 } from '~/configs/protocols';
-import { ThemeCreator } from './themeFactory';
+import { ThemeCreator } from './theme-factory';
 /* -------------------------------------------------------------------------- */
 /**
  * factory of creating default uiLibrary theme based on user settings

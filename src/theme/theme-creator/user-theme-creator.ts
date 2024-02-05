@@ -5,7 +5,7 @@ import {
   NPaletteConfigs,
   NTypographyConfigs,
 } from '~/configs/protocols';
-import { ThemeCreator } from './themeFactory';
+import { ThemeCreator } from './theme-factory';
 /* -------------------------------------------------------------------------- */
 /**
  * factory of creating user theme based on custom theme configs
