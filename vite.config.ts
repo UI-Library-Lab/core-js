@@ -21,6 +21,11 @@ export default defineConfig((configEnv) => ({
   server: {
     host: true,
   },
+  resolve: {
+    alias: {
+      "~" : resolve(__dirname, './src'),
+    }
+  },
   build: {
     lib: {
       entry: resolve('src', 'index.ts'),
